@@ -1,4 +1,9 @@
-html, body {
+html {
+	visibility: hidden;
+	height: 100%;
+}
+
+body {
 	height: 100%;
 }
 /*Extra small devices (portrait phones, 320px and up)*/
