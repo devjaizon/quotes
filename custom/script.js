@@ -4,6 +4,7 @@ $.getJSON('lib/quotes.json', function(json) {
   data = json;
 });
 $(document).ready(function() {
+    $('html').css('visibility', 'visible');
     jsonQuote();
     $('#get-quote').on('click', function() {
         jsonQuote();
