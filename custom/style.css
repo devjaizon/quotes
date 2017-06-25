@@ -1,0 +1,146 @@
+html, body {
+	height: 100%;
+}
+/*Extra small devices (portrait phones, 320px and up)*/
+@media  (min-width: 320px) {
+	h1 {
+		font-size: 2rem;
+	}
+	#quote-style {
+		font-size: 1.3rem;
+	}
+	#author-style {
+		font-size: 1rem;
+	}
+}
+/*Small devices (landscape phones, 576px and up)*/
+@media  (min-width: 576px) {
+	h1 {
+		font-size: 2.5rem;
+	}
+	#quote-style {
+		font-size: 1.6rem;
+	}
+	#author-style {
+		font-size: 1.25rem;
+	}
+}
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+	h1 {
+		font-size: 2.8rem;
+	}
+	#quote-style {
+		font-size: 1.9rem;
+	}
+	#author-style {
+		font-size: 1.4rem;
+	}
+}
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+	h1 {
+		font-size: 3.2rem;
+	}
+	#quote-style {
+		font-size: 2.2rem;
+	}
+	#author-style {
+		font-size: 1.5rem;
+	}
+}
+.page {
+	height: 100%;
+	display: flex;
+	background-image: url('../img/1.jpg');
+	background-position: center;
+	background-size: cover;
+}
+.jumbotron-fluid {
+	display: flex;
+	flex-direction: column;
+	height: 50%;
+	width: 700px;
+	background-color:rgba(0,0,0,0.5);
+	background-position: center;
+	margin: auto;
+}
+#text-box {
+	display: inline-block;
+	background-color: rgba(0,0,0,0);
+	height: 80%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 2px;
+	width: 100%;
+}
+h1, .container{
+	margin: 5px 0;
+}
+h1 {
+	color: #81d4fa;
+	font-family: 'Yellowtail', cursive;
+	text-align: center;
+	letter-spacing: 2px;
+	text-shadow: 0 0 1px black;
+}
+.button {
+	width: 4rem;
+	height: 2rem;
+	margin-top: 7px;
+	margin-left: 3px;
+	margin-right: 3px;
+	border-radius: 5px;
+	color: white;
+	background-color: rgba(0,0,0,0.3);
+}
+.button:active {
+	color: #fbc02d;
+}
+.button-wraper {
+	width: 100%;
+	text-align: center;
+}
+#quote {
+	background-color: rgba(0,0,0,0);
+	width: 90%;
+	height: 60%;
+	padding-top: 3%;
+	display: flex;
+	align-content: center;
+	flex-direction: column;
+}
+#author {
+	background-color: rgba(0,0,0,0);
+	width: 50%;
+	height: 20%;
+	margin-top: 0;
+	display: flex;
+	align-content: center;
+	flex-direction: column;
+}
+#quote-style {
+	font-weight: 100;
+	line-height: 100%;
+	text-align: center;
+	font-family: 'Lobster', cursive;
+	color: white;
+	letter-spacing: 1px;
+	text-shadow: 0 0 1px black;
+}
+#author-style {
+	font-weight: 100;
+	line-height: 100%;
+	text-align: center;
+	font-family: 'Lobster', cursive;
+	color: #fbc02d;
+	margin-top:3%;
+	text-shadow: 0 0 1px black;
+}
+
+
+/*fonts
+font-family: 'Yellowtail', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Lobster', cursive;
