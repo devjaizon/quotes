@@ -5,7 +5,7 @@ $.getJSON('lib/quotes.json', function(json) {
 });
 $(document).ready(function() {
     $('html').css('visibility', 'visible');
-    jsonQuote();
+    setTimeout(jsonQuote, 500);
     $('#get-quote').on('click', function() {
         jsonQuote();
     });
