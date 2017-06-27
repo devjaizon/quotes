@@ -1,6 +1,6 @@
 var data;
 var current;
-$.getJSON('lib/quotes.json', function(json) {
+$.getJSON('https://raw.githubusercontent.com/jaizon/json/master/quotes.json', function(json) {
   data = json;
 });
 $(document).ready(function() {
