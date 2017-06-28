@@ -1,8 +1,13 @@
 var data;
 var current;
-$.getJSON('https://raw.githubusercontent.com/jaizon/json/master/quotes.json', function(json) {
-  data = json;
-});
+$.ajax({
+    url: 'https://raw.githubusercontent.com/jaizon/json/master/quotes.json',
+    type: 'GET',
+    dataType: 'json',
+    success: function (json) {
+        return data = json;
+    }
+})
 $(document).ready(function() {
     $('html').css('visibility', 'visible');
     setTimeout(jsonQuote, 500);
